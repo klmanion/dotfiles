@@ -23,7 +23,7 @@
 	url = https://github.com/jreybert/vimagit.git
 
 [submodule "rust-vim"]
-	path = vim/pack/plugins/start/rust-vim
+	path = vim/pack/plugins/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
 
 [submodule "tpm"]
@@ -38,3 +38,6 @@
 [submodule "vim-parinfer"]
 	path = vim/pack/plugins/start/vim-parinfer
 	url = https://github.com/bhurlow/vim-parinfer.git
+[submodule "vim-fugative"]
+	path = vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
