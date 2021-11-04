@@ -19,11 +19,11 @@ volumeR=100
 name=
 
 [MixerOSS::Realtek_ALC257_(Analog_2.0+HP/2:1.Dev0]
-is_muted=true
+is_muted=false
 is_recsrc=false
 name=Volume
-volumeL=0
-volumeR=0
+volumeL=78
+volumeR=78
 
 [MixerOSS::Realtek_ALC257_(Analog_2.0+HP/2:1.Dev11]
 is_muted=false

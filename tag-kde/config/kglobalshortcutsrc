@@ -31,7 +31,7 @@ _k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
 
 [kmix]
-_k_friendly_name=KMix
+_k_friendly_name=Audio Volume
 decrease-volume-Microphone@Realtek ALC257 (Right Analog Mi=none,none,Decrease volume of Microphone on Realtek ALC257 (Right Analog Mi
 decrease-volume-Monitor@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of Monitor on Realtek ALC257 (Analog 2.0+HP/2
 decrease-volume-OGain@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of OGain on Realtek ALC257 (Analog 2.0+HP/2
@@ -42,6 +42,7 @@ decrease-volume-RecMon@Realtek ALC257 (Right Analog Mi=none,none,Decrease volume
 decrease-volume-Speaker@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of Speaker on Realtek ALC257 (Analog 2.0+HP/2
 decrease-volume-Volume@Intel Kaby Lake (HDMI/DP 8ch)=none,none,Decrease volume of Volume on Intel Kaby Lake (HDMI/DP 8ch)
 decrease-volume-Volume@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of Volume on Realtek ALC257 (Analog 2.0+HP/2
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase-volume-Microphone@Realtek ALC257 (Right Analog Mi=none,none,Increase volume of Microphone on Realtek ALC257 (Right Analog Mi
 increase-volume-Monitor@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of Monitor on Realtek ALC257 (Analog 2.0+HP/2
@@ -53,7 +54,9 @@ increase-volume-RecMon@Realtek ALC257 (Right Analog Mi=none,none,Increase volume
 increase-volume-Speaker@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of Speaker on Realtek ALC257 (Analog 2.0+HP/2
 increase-volume-Volume@Intel Kaby Lake (HDMI/DP 8ch)=none,none,Increase volume of Volume on Intel Kaby Lake (HDMI/DP 8ch)
 increase-volume-Volume@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of Volume on Realtek ALC257 (Analog 2.0+HP/2
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
+mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 toggle-mute-Microphone@Realtek ALC257 (Right Analog Mi=none,none,Mute Microphone on Realtek ALC257 (Right Analog Mi
 toggle-mute-Monitor@Realtek ALC257 (Analog 2.0+HP/2=none,none,Mute Monitor on Realtek ALC257 (Analog 2.0+HP/2
@@ -220,6 +223,17 @@ view_actual_size=Meta+0,Meta+0,Actual Size
 view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[mediacontrol]
+_k_friendly_name=Media Controller
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=none,none,Play media playback
+playpausemedia=Media Play,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
+
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
@@ -262,6 +276,7 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 25=,none,Activate Application Launcher Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions

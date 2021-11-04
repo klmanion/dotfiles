@@ -1,4 +1,8 @@
+[$Version]
+update_info=disable_kmix.upd:PlasmaVolume_DisableKMixAutostart
+
 [Global]
+AutoStart=false
 ConfigVersion=3
 MasterMixer=OSS::Realtek_ALC257_(Analog_2.0+HP/2:1
 MasterMixerDevice=0
@@ -6,9 +10,13 @@ MixerIgnoreExpression=Modem
 Position=0,29
 Size=640,480
 Visible=false
+startkdeRestore=false
 
 [Profiles]
 MPRIS2::Playback_Streams:1=MPRIS2.default
 OSS::Intel_Kaby_Lake_(HDMI/DP_8ch):1=
 OSS::Realtek_ALC257_(Analog_2.0+HP/2:1=
 OSS::Realtek_ALC257_(Right_Analog_Mi:1=
+
+[View.MPRIS2.default.MPRIS2::Playback_Streams:1.plasma-browser-integration]
+Split=false

@@ -200,7 +200,8 @@ set laststatus=2
 set noshowmode
 
 " VimTeX {{{2
-let g:vimtex_view_general_viewer='/Applications/Skim.app/Contents/SharedSupport/displayline'
+"let g:vimtex_view_general_viewer='/Applications/Skim.app/Contents/SharedSupport/displayline'
+let g:vimtex_view_general_viewer='/usr/local/bin/okular'
 let g:vimtex_view_general_options='-r @line @pdf @tex'
 let g:vimtex_fold_enabled=0
 
