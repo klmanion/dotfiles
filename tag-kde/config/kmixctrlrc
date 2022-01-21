@@ -22,8 +22,8 @@ name=
 is_muted=false
 is_recsrc=false
 name=Volume
-volumeL=78
-volumeR=78
+volumeL=25
+volumeR=25
 
 [MixerOSS::Realtek_ALC257_(Analog_2.0+HP/2:1.Dev11]
 is_muted=false
@@ -64,11 +64,18 @@ volumeR=100
 name=
 
 [MixerOSS::Realtek_ALC257_(Right_Analog_Mi:1.Dev11]
-is_muted=false
+is_muted=true
 is_recsrc=false
 name=RecMon
-volumeL=37
-volumeR=37
+volumeL=0
+volumeR=0
+
+[MixerOSS::Realtek_ALC257_(Right_Analog_Mi:1.Dev5]
+is_muted=false
+is_recsrc=false
+name=Speaker
+volumeL=100
+volumeR=100
 
 [MixerOSS::Realtek_ALC257_(Right_Analog_Mi:1.Dev7]
 is_muted=false

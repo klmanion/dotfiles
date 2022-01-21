@@ -1,5 +1,6 @@
-[PlasmaTransientsConfig]
-PreloadWeight=0
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=606
+eDP-1 Width 1920x1080=483
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44

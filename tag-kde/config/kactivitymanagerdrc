@@ -1,5 +1,9 @@
 [activities]
-4ee74eb5-bb46-4a74-9c3f-4c83ec8c75bb=Default
+4ee74eb5-bb46-4a74-9c3f-4c83ec8c75bb=Main
+8de45473-cf71-4213-8c03-697020b96223=Reading
+
+[activities-icons]
+8de45473-cf71-4213-8c03-697020b96223=activities
 
 [main]
-currentActivity=4ee74eb5-bb46-4a74-9c3f-4c83ec8c75bb
+currentActivity=8de45473-cf71-4213-8c03-697020b96223

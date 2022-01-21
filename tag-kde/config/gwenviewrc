@@ -1,2 +1,42 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+UrlNavigatorIsEditable=true
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAtIAAAJtAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=667
+eDP-1 Width 1920x1080=722
+eDP-1 XPosition 1920x1080=641
+eDP-1 YPosition 1920x1080=29
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/res3.pdf
+File10[$e]=$HOME/Desktop/House of 1000 Corpses (2003) [1080p]/WWW.YTS.RE.jpg
+File2[$e]=$HOME/Downloads/res2.pdf
+File3[$e]=$HOME/Downloads/res1.pdf
+File4[$e]=$HOME/Downloads/CIA-RDP96-00788R001700210016-5(3).pdf
+File5[$e]=$HOME/Downloads/CIA-RDP96-00788R001700210016-5(2).pdf
+File6[$e]=$HOME/Downloads/CIA-RDP96-00788R001700210016-5(1).pdf
+File7[$e]=$HOME/Downloads/CIA-RDP96-00788R001700210016-5.pdf
+File8[$e]=$HOME/Downloads/tol.jpg
+File9[$e]=$HOME/Downloads/anita.jpg
+Name1[$e]=res3.pdf
+Name10[$e]=WWW.YTS.RE.jpg
+Name2[$e]=res2.pdf
+Name3[$e]=res1.pdf
+Name4[$e]=CIA-RDP96-00788R001700210016-5(3).pdf
+Name5[$e]=CIA-RDP96-00788R001700210016-5(2).pdf
+Name6[$e]=CIA-RDP96-00788R001700210016-5(1).pdf
+Name7[$e]=CIA-RDP96-00788R001700210016-5.pdf
+Name8[$e]=tol.jpg
+Name9[$e]=anita.jpg
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=189,532

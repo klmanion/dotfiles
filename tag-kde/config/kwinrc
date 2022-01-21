@@ -6,5 +6,24 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=04838cf3-6d4c-4e53-af95-eb2c267d69d7
-Number=1
-Rows=1
+Id_2=ccc55c50-0d24-4cd7-89b4-c198ddd7c80e
+Id_3=fae8a859-e69f-48b5-818c-e3f9b2c4d227
+Id_4=ee1d769d-c2b2-471d-9323-73bb2bc082e0
+Name_1=main
+Name_2=secondary
+Name_3=main aux
+Name_4=secd aux
+Number=4
+Rows=2
+
+[Plugins]
+desktopchangeosdEnabled=true
+
+[TabBox]
+LayoutName=org.kde.breezedark.desktop
+
+[TabBoxAlternative]
+LayoutName=org.kde.breezedark.desktop
+
+[Windows]
+ElectricBorders=2

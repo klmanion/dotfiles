@@ -2,11 +2,13 @@
 _k_friendly_name=Activity Manager
 switch-to-activity-03875fa4-dafb-4202-b32e-e2ee9aa236dc=none,none,Switch to activity "Default"
 switch-to-activity-14a8199c-5c1d-4016-b703-3fa6492b06f4=none,none,Switch to activity "Default"
-switch-to-activity-4ee74eb5-bb46-4a74-9c3f-4c83ec8c75bb=none,none,Switch to activity "Default"
+switch-to-activity-4ee74eb5-bb46-4a74-9c3f-4c83ec8c75bb=none,none,Switch to activity "Main"
+switch-to-activity-8de45473-cf71-4213-8c03-697020b96223=none,none,Switch to activity "Reading"
 switch-to-activity-99c16a2b-91bc-47c0-ab4e-df7c4ee12780=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
+Switch keyboard layout to Greek (polytonic)=none,none,Switch keyboard layout to Greek (polytonic)
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
@@ -40,6 +42,7 @@ decrease-volume-Pcm@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of
 decrease-volume-RecMon@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of RecMon on Realtek ALC257 (Analog 2.0+HP/2
 decrease-volume-RecMon@Realtek ALC257 (Right Analog Mi=none,none,Decrease volume of RecMon on Realtek ALC257 (Right Analog Mi
 decrease-volume-Speaker@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of Speaker on Realtek ALC257 (Analog 2.0+HP/2
+decrease-volume-Speaker@Realtek ALC257 (Right Analog Mi=none,none,Decrease volume of Speaker on Realtek ALC257 (Right Analog Mi
 decrease-volume-Volume@Intel Kaby Lake (HDMI/DP 8ch)=none,none,Decrease volume of Volume on Intel Kaby Lake (HDMI/DP 8ch)
 decrease-volume-Volume@Realtek ALC257 (Analog 2.0+HP/2=none,none,Decrease volume of Volume on Realtek ALC257 (Analog 2.0+HP/2
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
@@ -52,6 +55,7 @@ increase-volume-Pcm@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of
 increase-volume-RecMon@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of RecMon on Realtek ALC257 (Analog 2.0+HP/2
 increase-volume-RecMon@Realtek ALC257 (Right Analog Mi=none,none,Increase volume of RecMon on Realtek ALC257 (Right Analog Mi
 increase-volume-Speaker@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of Speaker on Realtek ALC257 (Analog 2.0+HP/2
+increase-volume-Speaker@Realtek ALC257 (Right Analog Mi=none,none,Increase volume of Speaker on Realtek ALC257 (Right Analog Mi
 increase-volume-Volume@Intel Kaby Lake (HDMI/DP 8ch)=none,none,Increase volume of Volume on Intel Kaby Lake (HDMI/DP 8ch)
 increase-volume-Volume@Realtek ALC257 (Analog 2.0+HP/2=none,none,Increase volume of Volume on Realtek ALC257 (Analog 2.0+HP/2
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
@@ -66,6 +70,7 @@ toggle-mute-Pcm@Realtek ALC257 (Analog 2.0+HP/2=none,none,Mute Pcm on Realtek AL
 toggle-mute-RecMon@Realtek ALC257 (Analog 2.0+HP/2=none,none,Mute RecMon on Realtek ALC257 (Analog 2.0+HP/2
 toggle-mute-RecMon@Realtek ALC257 (Right Analog Mi=none,none,Mute RecMon on Realtek ALC257 (Right Analog Mi
 toggle-mute-Speaker@Realtek ALC257 (Analog 2.0+HP/2=none,none,Mute Speaker on Realtek ALC257 (Analog 2.0+HP/2
+toggle-mute-Speaker@Realtek ALC257 (Right Analog Mi=none,none,Mute Speaker on Realtek ALC257 (Right Analog Mi
 toggle-mute-Volume@Intel Kaby Lake (HDMI/DP 8ch)=none,none,Mute Volume on Intel Kaby Lake (HDMI/DP 8ch)
 toggle-mute-Volume@Realtek ALC257 (Analog 2.0+HP/2=none,none,Mute Volume on Realtek ALC257 (Analog 2.0+HP/2
 
@@ -248,6 +253,7 @@ ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
 CurrentMonitorScreenShot=,none,Capture Current Monitor
 FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
 RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
 _k_friendly_name=Spectacle
 _launch=Print,Print,Launch Spectacle
 

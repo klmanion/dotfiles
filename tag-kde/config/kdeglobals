@@ -133,10 +133,17 @@ ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
+[DirSelect Dialog]
+DirSelectDialog Size=857,598
+History Items[$e]=file:$HOME/Desktop/Monroe Institute - The Complete Gateway Experience
+
 [General]
 Name=Breeze Dark
 shadeSortColumn=true
 widgetStyle=Breeze
+
+[Icons]
+Theme=breeze-dark
 
 [KDE]
 ColorScheme=BreezeLight

@@ -3,3 +3,12 @@ update_info=spectacle_newConfig.upd:spectacle-new-config
 
 [GuiConfig]
 window-position=50,0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Desktop/klmanion-hue_test.png,file:$HOME/Desktop/klmanion-hue_test.png
+Recent URLs[$e]=file:$HOME/Desktop/
+detailViewIconSize=16
+
+[Save]
+lastSaveAsLocation=file:///home/ldve/Desktop/klmanion-hue_test.png
+lastSaveLocation=file:///home/ldve/Desktop/klmanion-hue_test.png
