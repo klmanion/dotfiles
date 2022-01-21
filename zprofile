@@ -24,6 +24,3 @@ setopt COMPLETE_IN_WORD
 setopt LIST_PACKED
 setopt ZLE
 
-#if [ -r "$HOME/.zshrc" ]; then
-#	. "$HOME/.zshrc"
-#fi
