@@ -4,7 +4,7 @@ if [ -z "$PS1" ]; then
 	return
 fi
 
-[ -r "$HOME/.rc" ] && . "$HOME/.rc"
+[ -r "$HOME/.shrc" ] && . "$HOME/.shrc"
 
 [ -r "$HOME/bashrc_$TERM_PROGRAM" ] && . "$HOME/bashrc_$TERM_PROGRAM"
 

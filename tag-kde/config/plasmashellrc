@@ -1,6 +1,10 @@
 [KPropertiesDialog]
-eDP-1 Height 1920x1080=606
-eDP-1 Width 1920x1080=483
+eDP-1 Height 1920x1080=616
+eDP-1 Width 1920x1080=479
+
+[Open-with settings]
+CompletionMode=1
+History=okular,dol,oku
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44

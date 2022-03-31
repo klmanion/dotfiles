@@ -8,10 +8,9 @@
 #  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 #fi
 
-
 unset path
 
-[ -r "$HOME/.rc" ] && . "$HOME/.rc"
+[ -r "$HOME/.shrc" ] && . "$HOME/.shrc"
 
 PROMPT='%# '
 

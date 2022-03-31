@@ -2,7 +2,7 @@
 DefaultProfile=Profile 1.profile
 
 [KonsoleWindow]
-SaveGeometryOnExit=false
+RememberWindowSize=false
 ShowMenuBarByDefault=false
 
 [MainWindow]
@@ -10,5 +10,10 @@ MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAA48AAAHeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-eDP-1 XPosition 1920x1080=0
-eDP-1 YPosition 1920x1080=29
+eDP-1 Height 1920x1080=478
+eDP-1 Width 1920x1080=911
+eDP-1 XPosition 1920x1080=48
+eDP-1 YPosition 1920x1080=479
+
+[UiSettings]
+ColorScheme=Default
