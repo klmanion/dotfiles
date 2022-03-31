@@ -1,5 +1,9 @@
 # shrc
 
+if [ -n "$RCECHO" ]; then
+	echo "shrc"
+fi
+
 PATH=
 
 add_path()

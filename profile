@@ -1,5 +1,9 @@
 # .profile
 
+if [ -n "$RCECHO" ]; then
+	echo "profile"
+fi
+
 if [ -r $HOME/.env ]; then
 	. $HOME/.env
 fi

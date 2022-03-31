@@ -1,4 +1,8 @@
-# .zsh_profile
+# .zprofile
+
+if [ -n "$RCECHO" ]; then
+	echo "zprofile"
+fi
 
 [ -r "$HOME/.profile" ] && . "$HOME/.profile"
 

@@ -1,7 +1,13 @@
 #.bashrc
 
+if [ -n "$RCECHO" ]; then
+	echo "bashrc"
+fi
+
 if [ -z "$PS1" ]; then
 	return
+elif [ -n "$RCECHO" ]; then
+	echo "bashrc: is interactive"
 fi
 
 [ -r "$HOME/.shrc" ] && . "$HOME/.shrc"

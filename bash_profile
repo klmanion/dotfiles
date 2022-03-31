@@ -1,5 +1,9 @@
 #.bash_profile
 
+if [ -n "$RCECHO" ]; then
+	echo "bash_profile"
+fi
+
 [ -r "$HOME/.profile" ] && . "$HOME/.profile"
 
 if [ -x "/Applications/Racket/share/pkgs/shell-completion/racket-completion.bash" ]; then
