@@ -1,9 +1,10 @@
-# shrc
+#### shrc
 
 if [ -n "$RCECHO" ]; then
 	echo "shrc"
 fi
 
+## path
 PATH=
 
 add_path()
@@ -25,15 +26,5 @@ if [ -z "$PATH" ]; then
 fi
 
 export PATH
-
-export EDITOR='nvim'
-export VISUAL=$EDITOR
-export PAGER='less'
-
-export PKG_CONFIG_PATH='/usr/local/opt/libffi/lib/pkgconfig'
-
-export HOMEBREW_NO_AUTO_UPDATE=1
-export HOMEBREW_NO_INSTALL_CLEANUP=1
-export HOMEBREW_VERBOSE=0
 
 # vi: set ts=8 sw=8 noexpandtab tw=79:

@@ -1,5 +1,4 @@
 #### aliases
-##
 
 ### editor
 alias v='${VISUAL:-$EDITOR}'

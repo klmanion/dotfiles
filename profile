@@ -4,10 +4,6 @@ if [ -n "$RCECHO" ]; then
 	echo "profile"
 fi
 
-if [ -r $HOME/.env ]; then
-	. $HOME/.env
-fi
-
 if [ -r $HOME/.aliases ]; then
 	. $HOME/.aliases
 fi
@@ -18,11 +14,11 @@ fi
 #fi
 
 export EDITOR='nvim'
-export VISUAL=$EDITOR
+export VISUAL="$EDITOR"
 if [ -n "`/usr/bin/whereis most`" ]; then
-	PAGER=most
+	PAGER='most'
 else
-	PAGER=less
+	PAGER='less'
 fi
 export PAGER
 
