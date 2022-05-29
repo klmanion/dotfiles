@@ -67,9 +67,9 @@ zinit light junegunn/fzf
 
 zinit snippet OMZP::git
 
-zinit light zsh-users/zsh-syntax-highlighting
+#zinit light zsh-users/zsh-syntax-highlighting
 
-zinit light xPMo/zsh-ls-colors
+#zinit light xPMo/zsh-ls-colors
 
 autoload -Uz compinit; compinit
 
