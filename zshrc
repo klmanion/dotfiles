@@ -31,6 +31,22 @@ PROMPT='%# '
 #  return 1
 #}
 
+### vim cursor
+function zle-keymap-select {
+	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+		echo -ne '\e[1 q'
+	else
+		echo -ne '\e[5 q'
+	fi
+}
+zle -N zle-keymap-select
+
+_fix_cursor() {
+	echo -ne '\e[5 q'
+}
+precmd_functions+=(_fix_cursor)
+
+### zinit
 if [ ! -d $HOME/.zinit/bin ]; then
 	git clone https://github.com/zdharma-continuum/zinit.git $HOME/.zinit/bin
 fi
@@ -51,8 +67,9 @@ zinit light junegunn/fzf
 
 zinit snippet OMZP::git
 
-ZVM_CURSOR_STYLE_ENABLED=false
-#zinit light jeffreytse/zsh-vi-mode
+zinit light zsh-users/zsh-syntax-highlighting
+
+zinit light xPMo/zsh-ls-colors
 
 autoload -Uz compinit; compinit
 
