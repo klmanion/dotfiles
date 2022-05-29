@@ -41,3 +41,12 @@
 [submodule "vim-fugative"]
 	path = vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/plugins/start/vim-hdevtools"]
+	path = vim/pack/plugins/start/vim-hdevtools
+	url = https://www.github.com/bitc/vim-hdevtools
+[submodule "vim/pack/plugins/start/syntastic"]
+	path = vim/pack/plugins/start/syntastic
+	url = https://www.github.com/vim-syntastic/syntastic
+[submodule "vim/pack/plugins/start/ale"]
+	path = vim/pack/plugins/start/ale
+	url = https://www.github.com/dense-analysis/ale

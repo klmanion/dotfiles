@@ -3,6 +3,8 @@
 " Vi-compatibility {{{
 "
 
+let g:hdevtoold_stack = 1
+
 set rtp+=/usr/local/opt/fzf
 
 " cpoptions {{{
