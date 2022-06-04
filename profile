@@ -39,9 +39,6 @@ export HOMEBREW_VERBOSE=0
 
 export LYNX_CFG="$HOME/.lynx.cfg"
 
-#unset CLICOLOR
-#export TERM='xterm-256color'
-
 #if [[ x"$TERM_PROGRAM" == x'iTerm.app' ]]; then
 #	export USE_STATUSLINE=1
 #fi
