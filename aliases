@@ -11,8 +11,10 @@ alias la='ls -la'
 ### grep
 alias grep='grep --color'
 
-### markdown-cli
-alias md='markdown-cli'
+### markdown viewing
+function md() {
+	pandoc "$1" | lynx -stdin
+}
 
 ### useful
 alias mnt='doas mount -t msdosfs /dev/da0s1 /mnt/flsh && cd /mnt/flsh/proper'
