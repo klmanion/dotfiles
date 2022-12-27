@@ -1,0 +1,8 @@
+#!/bin/sh
+
+URxvt*background: black
+URxvt*foreground: white
+
+URxvt.scrollBar: false
+
+URxvt.loginShell: true

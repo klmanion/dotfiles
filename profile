@@ -13,9 +13,18 @@ fi
 #	bind -f "$INPUTRC"
 #fi
 
-export EDITOR='nvim'
+if [ -e /usr/local/nvim ]; then
+	EDITOR='nvim'
+elif [ -e /usr/local/vim ]; then
+	EDITOR='vim'
+else
+	EDITOR='vi'
+fi
+
+export EDITOR
 export VISUAL="$EDITOR"
-if [ -n "`/usr/bin/whereis most`" ]; then
+
+if [ -e '/usr/local/bin/most' ]; then
 	PAGER='most'
 else
 	PAGER='less'
@@ -38,6 +47,8 @@ export HOMEBREW_NO_INSTALL_CLEANUP=1
 export HOMEBREW_VERBOSE=0
 
 export LYNX_CFG="$HOME/.lynx.cfg"
+
+export REPO_AUTOUPDATE="NO"
 
 #if [[ x"$TERM_PROGRAM" == x'iTerm.app' ]]; then
 #	export USE_STATUSLINE=1

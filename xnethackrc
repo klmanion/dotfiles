@@ -1,0 +1,18 @@
+#### xnethackrc
+## created by: Kurt L. Manion
+## on: 27 Dec 2022
+#
+
+options=windowtype:curses
+
+options=autopickup,pickup_types:$
+
+options=perm_invent,hitpointbar,showexp,showrace
+options=lit_corridor
+options=acoustics,mention_walls,mention_decor
+
+options=statuslines:3
+
+options=dogname:Blitzen
+
+options=rest_on_space
