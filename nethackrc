@@ -1,0 +1,38 @@
+#### nethackrc
+
+## must be compiled with compatibility
+option=windowtype:curses
+option=symset:DECGraphics
+option=windowborders:1	# forces window borders (2 discerns)
+option=splash_screen
+
+option=guicolor
+
+option=!mouse_support
+
+option=perm_invent,lit_corridor,showexp,time,showscore
+option=autopickup,pickup_types:$
+option=boulder:0
+
+option=altmeta
+option=!showrace
+option=toptenwin
+option=hilite_pile
+option=popup_dialog
+option=!extmenu,!confirm
+
+option=dogname:Blitzen
+
+option=hitpointbar,menucolors,statushilites
+option=hilite_status: experience-level/changed/purple&bold/white
+
+#option=hilite_status: hitpoints-max/black&normal
+#option=hilite_status: hitpoints/100%/green&normal
+#option=hilite_status: hitpoints/<100%/lightgreen&normal
+#option=hilite_status: hitpoints/<76%/yellow&normal
+#option=hilite_status: hitpoints/<51%/orange&normal
+#option=hilite_status: hitpoints/<26%/red&normal
+#option=hilite_status: hitpoints/<11%/black&normal
+
+
+## mention_walls
