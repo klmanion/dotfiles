@@ -1,5 +1,3 @@
-#!/bin/sh
-
 URxvt*background: black
 URxvt*foreground: white
 
