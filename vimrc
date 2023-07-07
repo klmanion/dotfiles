@@ -151,35 +151,35 @@ if has('autocmd')
 		au FileType racket set sw=2
 		au FileType racket set expandtab
 	augroup END " }}}
-	augroup C " {{{
+	augroup c " {{{
 		autocmd!
-		au FileType C set ts=8
-		au FileType C set sw=8
-		au FileType C set noexpandtab
-		au FileType C set cinoptions=
-		au FileType C set cino+=>s,e0,n-.5s,f0,{.5s,}0,^0
-		au FileType C set cino+=Ls,:0,=s,l1,b0
-		au FileType C set cino+=g0,hs,N-s,E-s,i0
-		au FileType C set cino+=p.5s,+s,t0
-		au FileType C set cino+=c3,C1,/0
-		au FileType C set cino+=(0,us,U1,w0,W.5s,ks,m0,M0
-		au FileType C set cino+=j1,J1 " these are java settings
-		au FileType C set cino+=)80,*200,#0
+		au FileType c set ts=8
+		au FileType c set sw=8
+		au FileType c set noexpandtab
+		au FileType c set cinoptions=
+		au FileType c set cino+=>s,e0,n-.5s,f0,{.5s,}0,^0
+		au FileType c set cino+=Ls,:0,=s,l1,b0
+		au FileType c set cino+=g0,hs,N-s,E-s,i0
+		au FileType c set cino+=p.5s,+s,t0
+		au FileType c set cino+=c3,c1,/0
+		au FileType c set cino+=(0,us,U1,w0,W.5s,ks,m0,M0
+		au FileType c set cino+=j1,J1 " these are java settings
+		au FileType c set cino+=)80,*200,#0
 	augroup END " }}}
-	augroup CPP " {{{
+	augroup cpp " {{{
 		autocmd!
-		au FileType CPP set ts=8
-		au FileType CPP set sw=8
-		au FileType CPP set noexpandtab
-		au FileType CPP set cinoptions=
-		au FileType CPP set cino+=>s,e0,n-.5s,f0,{.5s,}0,^0
-		au FileType CPP set cino+=Ls,:0,=s,l1,b0
-		au FileType CPP set cino+=g0,hs,N-s,E-s,i0
-		au FileType CPP set cino+=p.5s,+s,t0
-		au FileType CPP set cino+=c3,C1,/0
-		au FileType CPP set cino+=(0,us,U1,w0,W.5s,ks,m0,M0
-		au FileType CPP set cino+=j1,J1 " these are java settings
-		au FileType CPP set cino+=)80,*200,#0
+		au FileType cpp set ts=8
+		au FileType cpp set sw=8
+		au FileType cpp set noexpandtab
+		au FileType cpp set cinoptions=
+		au FileType cpp set cino+=>s,e0,n-.5s,f0,{.5s,}0,^0
+		au FileType cpp set cino+=Ls,:0,=s,l1,b0
+		au FileType cpp set cino+=g0,hs,N-s,E-s,i0
+		au FileType cpp set cino+=p.5s,+s,t0
+		au FileType cpp set cino+=c3,C1,/0
+		au FileType cpp set cino+=(0,us,U1,w0,W.5s,ks,m0,M0
+		au FileType cpp set cino+=j1,J1 " these are java settings
+		au FileType cpp set cino+=)80,*200,#0
 	augroup END " }}}
 endif
 " }}}
@@ -231,5 +231,24 @@ if has("cscope")
 	set csverb
 endif
 " }}}1
+
+""" ORG
+"" workflow
+
+""" vim-plug {{{1
+""
+
+"" bootstrap {{{2
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+	  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+	    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif " }}}2
+
+call plug#begin()
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
 
 " vi: set ts=8 sw=8 noexpandtab tw=79:
