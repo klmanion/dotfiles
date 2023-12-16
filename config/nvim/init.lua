@@ -66,7 +66,7 @@ augroup END
 vim.cmd 'let $NVIM_TUI_ENABLE_TRUE_COLOR=1'
 
 vim.opt.termguicolors = true
-vim.opt.background = 'dark'
+vim.opt.background = 'light'
 
 
 -- local function kmap(mode, keys, com)

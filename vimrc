@@ -249,6 +249,8 @@ call plug#begin()
 
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'lervag/vimtex'
+
 call plug#end()
 
 " vi: set ts=8 sw=8 noexpandtab tw=79:
